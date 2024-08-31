@@ -1,7 +1,9 @@
 # Gendesc
-My tool to pre-process ミリシタバスデーライブ video description for my personal YouTube channel, but should be usable for other kind of videos, Written in V.
+My tool to pre-process ミリシタバスデーライブ video description for my personal YouTube channel, but should be usable for other kind of videos, Written in V. 
 
-This project is made as fast as possible. The code quality might be meh
+Basically a simple TOML pre-processor with named-key text formatting support.
+
+This project is made as fast as possible. The code quality might be meh.
 
 ## Usage
 In current directory where `gendesc` is called, there should be a `desc.toml` ( see [sample file](sample/desc.toml) ), just like Makefile and gnu make. The `desc.toml` should contains a `template` key that coresponds to a template file name located in `(gendesc binary directory)/templates/`. 
@@ -11,7 +13,7 @@ Just call in the directory:
 gendesc [section] [options...]
 ```
 
-Sections specified is available in the toml file, including in the template file. with additional file
+Sections specified is generated from the `desc.toml` file keys, including in the template file. with additional section generated after, use `-v` to list all available sections.
 
 ### Additional Options
 - `-v` Make the program more verbose

@@ -1,7 +1,7 @@
 [main_title]
-id = "【ミリシタ】Percakapan Ulang Tahun {char.name.ww.fore}{char.honor.ww}! ({now.year.half} ver.)"
-en = "【ミリシタ】{char.name.ww.fore}{char.honor.ww}'s Birthday Commu ({now.year.half} ver.)"
-jp = "【ミリシタ】{char.name.jp.fore}{char.honor.jp}の誕生日コッミュ（{now.year.wide} ver.）"
+id = "【ミリシタ】Percakapan Ulang Tahun {char.name.ww.fore} ({now.year.half} ver.)"
+en = "【ミリシタ】{char.name.ww.fore}'s Birthday Commu ({now.year.half} ver.)"
+jp = "【ミリシタ】{char.name.jp.fore}の誕生日コッミュ（{now.year.wide} ver.）"
 
 [main_desc]
 id = """{shorts_title.no_tag.id}

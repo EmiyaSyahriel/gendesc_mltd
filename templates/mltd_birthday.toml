@@ -1,0 +1,67 @@
+[main_title]
+id = "【ミリシタ】Percakapan Ulang Tahun {char.name.ww.fore}{char.honor.ww}! ({now.year.half} ver.)"
+en = "【ミリシタ】{char.name.ww.fore}{char.honor.ww}'s Birthday Commu ({now.year.half} ver.)"
+jp = "【ミリシタ】{char.name.jp.fore}{char.honor.jp}の誕生日コッミュ（{now.year.wide} ver.）"
+
+[main_desc]
+id = """{shorts_title.no_tag.id}
+{comment.id}
+
+[Timestamps]
+{chapters.id}
+
+Rekaman layar dari Nokia T20 menggunakan scrcpy, Disunting dengan Kdenlive, Diberi takarir dengan Aegisub.
+
+{tags.hash.ww}
+"""
+en = """{shorts_title.no_tag.en}
+{comment.en}
+
+[Timestamps]
+{chapters.en}
+
+Screen recorded from Nokia T20 using scrcpy, Edited using Kdenlive, Subtitled using Aegisub.
+
+{tags.hash.ww}
+"""
+jp = """{shorts_title.no_tag.jp}
+{comment.jp}
+
+[タイムスタンプ]
+{chapters.jp}
+
+scrcpyに使ってNokia T20からのスクリーンリコード、Kdenliveで編集。
+
+{tags.hash.jp}
+"""
+
+[shorts_title.no_tag]
+id = "Selamat ulang tahun, {char.name.ww.fore}{char.honor.ww}!"
+en = "Happy birthday, {char.name.ww.fore}{char.honor.ww}!"
+jp = "お誕生日おめでとう、{char.name.jp.fore}{char.honor.jp}！"
+
+[shorts_title.tagged]
+id = "{shorts_title.no_tag.id} {tags.shorts_hash.ww}"
+en = "{shorts_title.no_tag.en} {tags.shorts_hash.ww}"
+jp = "{shorts_title.no_tag.jp} {tags.shorts_hash.jp}"
+
+[shorts_desc]
+jp = """scrcpyに使ってNokia T20からのスクリーンリコード、Kdenliveで編集。
+
+{tags.hash.jp}"""
+en = """Screen recorded from Nokia T20 using scrcpy, Edited using Kdenlive, Subtitled using Aegisub.
+
+{tags.hash.ww}"""
+id = """Rekaman layar dari Nokia T20 menggunakan scrcpy, Disunting dengan Kdenlive, Diberi takarir dengan Aegisub.
+
+{tags.hash.ww}"""
+
+[chapters]
+id = ["Pintu Masuk", "Belakang Panggung", "Perayaan & Hadiah"]
+jp = ["入場", "ライブのあと", "お祝いとプレゼント" ]
+en = ["Entrance", "Backstage", "Celebration & Present"]
+
+[tags]
+jp = [ "{char.name.jp.lower}", "アイドルマスター", "ミリオンライブ", "アイドルマスターミリオンライブ", "ミリシタ", "バスデーライブ", "{char.va.jp.lower}"]
+ww = [ "{char.name.ww.lower}", "idolmaster", "million live","the idolmaster million live", "mirishita",  "birthday live", "{char.va.ww.lower}"]
+shorts_hash_indices = [0, 4, 5]

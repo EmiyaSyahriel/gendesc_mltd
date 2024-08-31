@@ -1,0 +1,18 @@
+template = "mltd_birthday"
+
+[char]
+name.ww = [ "Chihaya", "Kisaragi" ]
+name.jp = [ "千早", "如月" ]
+honor.ww = "-san"
+honor.jp = "さん"
+honor.use = true
+va.ww = [ "Asami", "Imai" ]
+va.jp = [ "麻美", "今井" ]
+
+[comment]
+id = "Mari kita rayakan ulang tahun Utahime kita!"
+en = "So then, let's celebrate the birthday of our Utahime, shall we?"
+jp = "さぁ、私たちの歌姫の誕生日を、祝おうじゃないか？"
+
+[chapters]
+times = [ "00:00", "00:19", "00:31" ]

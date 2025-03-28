@@ -59,16 +59,16 @@ jp = "{shorts_title.no_tag.jp} {tags.shorts_hash.jp}"
 jv = "{shorts_title.no_tag.jv} {tags.shorts_hash.jv}"
 
 [shorts_desc]
-jp = """scrcpyに使ってNokia T20からのスクリーンリコード、Kdenliveで編集。
+jp = """scrcpyに使ってNokia X30 5Gからのスクリーンリコード、Kdenliveで編集。
 
 {tags.hash.jp} {tags.hash.ww}"""
-en = """Screen recorded from Nokia T20 using scrcpy, Edited using Kdenlive, Subtitled using Aegisub.
+en = """Screen recorded from Nokia X30 5G using scrcpy, Edited using Kdenlive, Subtitled using Aegisub.
 
 {tags.hash.jp} {tags.hash.ww}"""
-id = """Rekaman layar dari Nokia T20 menggunakan scrcpy, Disunting dengan Kdenlive, Diberi takarir dengan Aegisub.
+id = """Rekaman layar dari Nokia X30 5G menggunakan scrcpy, Disunting dengan Kdenlive, Diberi takarir dengan Aegisub.
 
 {tags.hash.jp} {tags.hash.ww}"""
-jv = """ꦢꦶꦫꦼꦏꦩ꧀ꦔꦁꦒꦺꦴscrcpyꦠꦼꦏꦤ꧀Nokia T20꧈ ꦢꦶꦲꦸꦧꦃꦔꦁꦒꦺꦴKdenlive꧈ꦢꦶꦮꦼꦤꦺꦲꦶꦠꦏꦫꦶꦂꦔꦁꦒꦺꦴAegisub꧉
+jv = """ꦢꦶꦫꦼꦏꦩ꧀ꦔꦁꦒꦺꦴscrcpyꦠꦼꦏꦤ꧀Nokia X30 5G꧈ ꦢꦶꦲꦸꦧꦃꦔꦁꦒꦺꦴKdenlive꧈ꦢꦶꦮꦼꦤꦺꦲꦶꦠꦏꦫꦶꦂꦔꦁꦒꦺꦴAegisub꧉
 
 {tags.hash.jp} {tags.hash.ww} {tags.hash.jv}"""
 
@@ -79,7 +79,7 @@ en = ["Entrance", "Backstage", "Celebration & Present"]
 jv = ["ꦩꦼꦭꦼꦧꦸ", "ꦩ꧀ꦧꦸꦫꦶꦥꦁꦒꦸꦁ", "ꦥꦼꦫꦪꦲꦤ꧀ꦭꦤ꧀ꦲꦣꦶꦪꦃ"]
 
 [tags]
-jp = [ "{char.name.jp.lower}", "アイドルマスター", "ミリオンライブ", "アイドルマスターミリオンライブ", "ミリシタ", "バスデーライブ", "{char.va.jp.lower}"]
-ww = [ "{char.name.ww.lower}", "idolmaster", "million live","the idolmaster million live", "mirishita",  "birthday live", "{char.va.ww.lower}"]
+jp = [ "{char.name.jp.lower}", "アイドルマスター", "学園アイドルマスター", "学マス", "バスデーコミュ", "{char.va.jp.lower}"]
+ww = [ "{char.name.ww.lower}", "idolmaster", "gakuen idolmaster","gakumasu", "birthday commu", "gakumas",  "{char.va.ww.lower}"]
 jv = [ "{char.name.jv.lower}", "ꦲꦪꦶꦣꦺꦴꦭ꧀ꦩꦱ꧀ꦠꦼꦂ", "ꦩꦶꦭꦶꦪꦺꦴꦤ꧀ꦭꦲꦶꦥ꦳꧀","ꦝꦼꦲꦪꦶꦣꦺꦴꦭ꧀ꦩꦱ꧀ꦠꦼꦂ", "ꦩꦶꦫꦶꦱꦶꦠ",  "ꦏꦺꦴꦤ꧀ꦱꦺꦂꦲꦩ꧀ꦧꦭ꧀ꦮꦂꦱ", "{char.va.ww.lower}"]
-shorts_hash_indices = [0, 4, 5]
+shorts_hash_indices = [0, 3, 4]

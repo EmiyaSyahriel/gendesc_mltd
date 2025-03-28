@@ -30,7 +30,7 @@ fn main() {
 		{
 			copy = true
 		}
-		else 
+		else
 		{
 			section = arg
 		}
